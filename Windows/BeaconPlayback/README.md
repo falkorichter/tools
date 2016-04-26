@@ -5,9 +5,9 @@ Beacon, duration and a delay before the next event are specified in the CSV file
 
 ### Header line format and a sample ###
 
-| TYPE | replies |
+| TYPE | replay count |
 | ---- | ------- |
-| HEADER | 1 |
+| LOCAL | 5 |
 
 If the replies count is set to 0, then the sequence of the events will be replied infinitely.
 
