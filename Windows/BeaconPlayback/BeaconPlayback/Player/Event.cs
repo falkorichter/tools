@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace BeaconPlayback
+namespace BeaconPlayback.Player
 {
-    class Event
+    public class Event
     {
         public UInt32 Duration
         {

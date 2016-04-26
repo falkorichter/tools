@@ -92,17 +92,21 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Player\Advertise.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Beacon.cs" />
-    <Compile Include="BeaconFactory.cs" />
-    <Compile Include="Event.cs" />
+    <Compile Include="Beacon\Beacon.cs" />
+    <Compile Include="Beacon\BeaconFactory.cs" />
+    <Compile Include="Player\Event.cs" />
+    <Compile Include="Player\LocalSource.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Player\Player.cs" />
+    <Compile Include="Player\PlayerEngine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Advertiser.cs" />
+    <Compile Include="Player\Source.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
