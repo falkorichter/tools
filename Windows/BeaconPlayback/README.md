@@ -13,6 +13,6 @@ If the replies count is set to 0, then the sequence of the events will be replie
 
 ### Event line format and a sample ###
 
-| TYPE | ID1 | ID2 | ID3 | Duration | Delay |
+| TYPE | ID1 | ID2 | ID3 | Duration in seconds | Delay in seconds |
 | ---- | --- | --- | --- | -------- | ----- |
 | EVENT | 73676723-7400-0000-ffff-0000ffff0007 | 24888 | 23777 | 5 | 1 |
